@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .newsletter-section {
   position: relative;
   background-image: url("../images/newsletter.png");
@@ -7,12 +10,16 @@
   color: black;
 }
 .newsletter {
-  text-align: center;
   width: 100%;
   padding: 30px;
 }
 .newsletter-section p {
   color: black !important;
+  margin-bottom: 100px;
+}
+.newsletter h2 {
+  margin-bottom: 50px !important;
+  text-align: center;
 }
 .overlay {
   top: 0;
@@ -21,4 +28,19 @@
   height: 100%;
   background-color: rgba(240, 238, 238, 0.5); /* Adjust the opacity as needed */
   z-index: 1; /* Ensure the overlay is above the background image */
+}
+.custom-form {
+  max-width: min(500px, 100%);
+  display: flex;
+  margin: auto;
+}
+.custom-form .message_icon {
+  padding: 15px 30px;
+  background: #eee;
+  max-height: 50px;
+  border-radius: 20px 0 0 20px;
+}
+.custom-form .form-control {
+  border-radius: 0 20px 20px 0;
+  max-height: 50px;
 }
