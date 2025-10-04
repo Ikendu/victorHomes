@@ -921,9 +921,9 @@ strong {
   margin: auto;
 }
 
-.events-listing-section {
+/* .events-listing-section {
   margin-bottom: 100px;
-}
+} */
 
 .events-detail-section .custom-block-info {
   padding: 40px 60px;
@@ -1227,9 +1227,9 @@ strong {
     margin-bottom: 82px;
   }
 
-  .events-listing-section {
+  /* .events-listing-section {
     margin-bottom: 50px;
-  }
+  } */
 
   .events-detail-section .custom-block-info {
     padding: 40px;
