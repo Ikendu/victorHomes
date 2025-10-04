@@ -1,6 +1,19 @@
 * {
   box-sizing: border-box;
 }
+.about_us {
+  background-color: #3d405b;
+  color: #e0dede;
+  padding: 30px 45px;
+  border-radius: 10px;
+}
+.about_us:hover {
+  background-color: #eeeeef;
+  color: #3d405b;
+}
+.about-section {
+  padding-bottom: 0px !important;
+}
 .newsletter-section {
   position: relative;
   background-image: url("../images/newsletter.png");
@@ -11,7 +24,7 @@
 }
 .newsletter {
   width: 100%;
-  padding: 30px;
+  padding: 50px !important;
 }
 .newsletter-section p {
   color: black !important;
@@ -31,7 +44,6 @@
 }
 .get_involved {
   background-color: #f4e4d0;
-  margin: 10px 0;
   width: 100%;
   padding: 50px;
 }
@@ -52,7 +64,8 @@
 }
 footer {
   background-color: #f4e4d0;
-  padding-top: 40px;
+  padding-top: 60px;
+  font-size: 12px;
 }
 .upper_footer {
   padding-bottom: 60px;
@@ -71,29 +84,25 @@ footer {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
+  font-size: 12px;
+  padding: 10px;
 }
 .footer-bottom ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-  padding-top: 10px;
 }
 .footer-bottom ul li {
   list-style: none;
+  font-size: 12px;
 }
 .footer-bottom ul li a {
   /* color: white !important; */
 }
+.copyright-text {
+  font-size: 12px !important;
+}
 
 @media (max-width: 600px) {
-  .newsletter-section p {
-    font-size: 12px !important;
-  }
-  footer {
-    font-size: 12px;
-  }
-  .footer-bottom ul li {
-    font-size: 12px;
-  }
 }
