@@ -29,6 +29,12 @@
   background-color: rgba(240, 238, 238, 0.5); /* Adjust the opacity as needed */
   z-index: 1; /* Ensure the overlay is above the background image */
 }
+.get_involved {
+  background-color: #f4e4d0;
+  margin: 10px 0;
+  width: 100%;
+  padding: 50px;
+}
 .custom-form {
   max-width: min(500px, 100%);
   display: flex;
@@ -44,6 +50,13 @@
   border-radius: 0 20px 20px 0;
   max-height: 50px;
 }
+footer {
+  background-color: #f4e4d0;
+  padding-top: 40px;
+}
+.upper_footer {
+  padding-bottom: 60px;
+}
 
 .footer-bottom {
   position: absolute;
@@ -53,16 +66,34 @@
   text-align: center;
   background-color: #81b29a;
   color: white !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .footer-bottom ul {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 20px;
-  padding: 10px 0;
+  padding-top: 10px;
 }
 .footer-bottom ul li {
   list-style: none;
 }
 .footer-bottom ul li a {
   /* color: white !important; */
+}
+
+@media (max-width: 600px) {
+  .newsletter-section p {
+    font-size: 12px !important;
+  }
+  footer {
+    font-size: 12px;
+  }
+  .footer-bottom ul li {
+    font-size: 12px;
+  }
 }
